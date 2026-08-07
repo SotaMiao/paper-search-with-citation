@@ -30,4 +30,4 @@ echo "Press Ctrl+C to stop the server"
 echo ""
 
 # Start the server
-uvicorn main:app --reload --host 0.0.0.0 --port 8111
+uvicorn main:app --host 0.0.0.0 --port 8111
